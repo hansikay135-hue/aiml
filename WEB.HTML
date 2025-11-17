@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: flex;          /* activates flexbox */
+  gap: 20px;              /* space between items */
+  flex-wrap: wrap;        /* moves items to next line on small screens */
+}
+.box {
+  flex: 1 1 200px;        /* flexible width: responsive */
+  padding: 20px;
+  background: lightblue;
+  text-align: center;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<h3>Responsive Flexbox Section</h3>
+<div class="container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+</body>
+</html>
